@@ -1,5 +1,10 @@
 # LinearAlgebraTools
 
+A list of technologies used within the project:
+* [Technology name](https://example.com): Version 12.3 
+* [Technology name](https://example.com): Version 2.34
+* [Library name](https://example.com): Version 1234
+
 The Linear Algebra Toolset is a comprehensive software package designed to facilitate vector and matrix operations. 
 It serves as a valuable resource for developers, mathematicians, and researchers working with linear algebra concepts. 
 
@@ -13,7 +18,7 @@ double magnitude(double[] v)
 
 double[] sum(double[] v, double[] w) 
 
-* Returns the sum of vectors v and w. This is a vector of the same length, each of whose elements is the sum of the corresponding * elements in v and w.
+* Returns the sum of vectors v and w. This is a vector of the same length, each of whose elements is the sum of the corresponding elements in v and w.
 
 double[] difference(double[] v, double[] w) * Returns the difference between vectors v and w. This is a vector of the same length, each of whose elements is the difference between the corresponding elements in v and w.
 
