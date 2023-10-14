@@ -1,10 +1,5 @@
 # LinearAlgebraTools
 
-A list of technologies used within the project:
-* [Technology name](https://example.com): Version 12.3 
-* [Technology name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-
 The Linear Algebra Toolset is a comprehensive software package designed to facilitate vector and matrix operations. 
 It serves as a valuable resource for developers, mathematicians, and researchers working with linear algebra concepts. 
 
@@ -20,16 +15,30 @@ double[] sum(double[] v, double[] w)
 
 * Returns the sum of vectors v and w. This is a vector of the same length, each of whose elements is the sum of the corresponding elements in v and w.
 
-double[] difference(double[] v, double[] w) * Returns the difference between vectors v and w. This is a vector of the same length, each of whose elements is the difference between the corresponding elements in v and w.
+double[] difference(double[] v, double[] w) 
 
-double[] elementwiseProduct(double[] v, double[] w) * Returns the element-wise between vectors v and w. This is a vector of the same length, each of whose elements is the product of the corresponding elements in v and w.
+* Returns the difference between vectors v and w. This is a vector of the same length, each of whose elements is the difference between the corresponding elements in v and w.
 
-double dotProduct(double[] v, double[] w) * Returns the dot product of vectors v and w. This is the sum of the products of the corresponding elements.   
+double[] elementwiseProduct(double[] v, double[] w) 
 
-double[][] sum(double[][] m, double[][] n) * Returns the element-wise sum of matrices m and n.
+* Returns the element-wise between vectors v and w. This is a vector of the same length, each of whose elements is the product of the corresponding elements in v and w.
 
-double[][] elementwiseProduct(double[][] m, double[][] n) * Returns the element-wise product of matri1ces m and n.
+double dotProduct(double[] v, double[] w) 
 
-double[][] transpose(double[][] m) * Returns the transpose of m, that is, a matrix where element i, j is element j, i from m.
+* Returns the dot product of vectors v and w. This is the sum of the products of the corresponding elements.   
 
-double[][] product(double[][] m, double[][] n) * Returns the matrix product of m and n. (Search the web for a definition.)
+double[][] sum(double[][] m, double[][] n) 
+
+* Returns the element-wise sum of matrices m and n.
+
+double[][] elementwiseProduct(double[][] m, double[][] n) 
+
+* Returns the element-wise product of matri1ces m and n.
+
+double[][] transpose(double[][] m) 
+
+* Returns the transpose of m, that is, a matrix where element i, j is element j, i from m.
+
+double[][] product(double[][] m, double[][] n) 
+
+* Returns the matrix product of m and n. (Search the web for a definition.)
