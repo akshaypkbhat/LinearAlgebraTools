@@ -39,6 +39,8 @@ double[][] transpose(double[][] m)
 
 * Returns the transpose of m, that is, a matrix where element i, j is element j, i from m.
 
+The test library has tests for all of the subroutines using JUnit 5
+
 double[][] product(double[][] m, double[][] n) 
 
 * Returns the matrix product of m and n. (Search the web for a definition.)
