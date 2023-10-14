@@ -3,7 +3,14 @@
 The Linear Algebra Toolset is a comprehensive software package designed to facilitate vector and matrix operations. 
 It serves as a valuable resource for developers, mathematicians, and researchers working with linear algebra concepts. 
 
-int[] dimensions(double[][] m) * Returns, as an array of two elements, the dimensions of matrix m.
+int[] dimensions(double[][] m) 
+* Returns, as an array of two elements, the dimensions of matrix m.
+
+
+
+
+
+
 double magnitude(double[] v) 
   * Returns the magnitude of the vector v (which may be of any length).
   * This is found by adding up the squares of all of the elements of v
@@ -19,7 +26,7 @@ double[] elementwiseProduct(double[] v, double[] w)
   * corresponding elements in v and w.
 double dotProduct(double[] v, double[] w)
   * Returns the dot product of vectors v and w. This is the sum of
-  * the products of the corresponding elements.
+  * the products of the corresponding elements.   
 double[][] sum(double[][] m, double[][] n)
   * Returns the element-wise sum of matrices m and n.
 double[][] elementwiseProduct(double[][] m, double[][] n)
