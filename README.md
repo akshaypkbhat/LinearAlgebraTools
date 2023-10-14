@@ -3,8 +3,7 @@
 The Linear Algebra Toolset is a comprehensive software package designed to facilitate vector and matrix operations. 
 It serves as a valuable resource for developers, mathematicians, and researchers working with linear algebra concepts. 
 
-int[] dimensions(double[][] m) 
-* Returns, as an array of two elements, the dimensions of matrix m.
+int[] dimensions(double[][] m) * Returns, as an array of two elements, the dimensions of matrix m.
 
 
 
